@@ -1,0 +1,35 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row outSideBox">
+        <div class="col-xs-12">
+          <h2>To Do List</h2>
+          <div id="todo-list">
+            <form id="create-task">
+              <input id="new-task-content" type="text" placeholder="New task" required />
+              <button type="submit">Create</button>
+            </form>
+            <table>
+                <th class="col-xs-4">task</th>
+                <th class="col-xs-1"> remove </th>
+                <th class="col-xs-1"> complete </th>
+            </table>
+            <div id="task-list">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    margin: 100px;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+}
+.tasks{
+    display: inline-flexbox;
+}
+.btn-remove{
+    color: red;
+}
+
+.btn-complete {
+    color: green;
+}
+
+.delete {
+    margin-right: 41px;
+  }
+
+#task-list{
+    border: .1em black solid;
+    margin-top: 30px;
+}
+
+th{
+ text-align: center;
+}
+
+.mark-complete{
+    text-align: center;
+}
+
+.outSideBox{
+    border: .5em blue dashed;
+}
+
+.tabs{
+    padding-top: 30px;
+    background-color: lightblue;
+    padding-bottom:30px;
+}
+.tabs button{
+    background-color: lightgray;
+}
+
+.delete.col-xs-1{
+    width: unset;
+}
